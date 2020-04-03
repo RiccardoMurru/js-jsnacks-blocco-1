@@ -5,8 +5,8 @@
  *  Utilizza una funzione per determinare e ritornare la parola più lunga.
  */
 
- var firstWord = prompt('Inserisci la prima parola');
- var secondWord = prompt('Inserisci la seconda parola');
+ var firstWord = prompt('Inserisci la prima parola').trim();
+ var secondWord = prompt('Inserisci la seconda parola').trim();
  var result = wordLength(firstWord, secondWord);
 
  // stampa la parola più lunga
